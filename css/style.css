@@ -1,0 +1,268 @@
+/*font integration start*/
+@font-face {
+    font-family: PTSans-Regular;
+    src: url(../fonts/PTSans/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family:PTSans-Bold ;
+    src: url(../fonts/PTSans/PTSans-Bold.ttf);
+}
+/*font integration end*/
+/* common start */
+body{
+    margin:0;
+    padding:0;
+    font-family: PTSans-Regular ;
+    font-size: 16px;
+    font-weight: 400;
+    color:#010101;
+}
+/* common end */
+/* header start */
+header{
+    padding: 25px 0;
+    background-color: #FCDB00;
+}
+.container{
+    margin:0 auto;
+    width:80%;
+    overflow:hidden;
+    /*border:1px solid;*/
+}
+.logo{
+    width:15%;
+    /*border:1px solid red;*/
+    float:left;
+}
+.logo a{}
+.logo a img{
+    width:100%;
+}
+.menu{
+    width:45%%;
+    /*border:1px solid red;*/
+    float:right;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    float:left;
+    list-style: none;
+}
+.menu ul li a{
+    margin: 0 35px;
+    font-family: 'pTsans-bold';
+    font-size: 22px;
+    color: black;
+    display:inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+     color:#555555;
+}
+/* header end */
+/*banner start */
+.banner{
+    padding-top:50px;
+    padding-bottom:100px;
+    background-color: #FCDB00;
+}
+.content{
+    overflow:hidden;
+}
+.b_content{
+    width:40%;
+    padding-top:50px;
+    float:left;
+    /*border:1px solid red;*/
+}
+.b_content h1{}
+.title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.sub-title{
+    font-size: 20px;
+    color:#313841;
+}
+.b_content p{}
+.details{
+    color:#555555;
+}
+.apple{}
+.apple ul{
+    padding:0;
+}
+.apple ul li {
+    padding-top:20px;
+    float:left;
+    list-style: none;
+}
+.apple ul li a{
+    margin-right: 30px;
+    display:inline-block
+}
+.apple ul li a img{
+    width:100%;
+}
+.ipad{
+    margin-right: 30px;
+    width:35%;
+    float:right;
+    /*border:1px solid red;*/
+}
+.ipad img{
+    width:100%;
+}
+.dot{
+    padding-top:25PX;
+    padding-bottom:50px;
+    text-align: center;
+}
+.dot img{}
+/* banner end*/
+/* features start */
+.features{
+    padding-top:50px;
+    padding-bottom:100px;
+    background-color: white;
+}
+.f_content{}
+.heading{
+    margin:0 auto;
+    width:70%;
+    text-align: center;
+    /*border:1px solid red;*/
+}
+.f_title h1{}
+.f_title p{
+    padding-top:30px;
+    padding-bottom:50px;
+}
+.service{
+    overflow: hidden;
+    padding: 40px 20px;
+}
+.f_service{
+    margin-right: 2%;
+    overflow: hidden;
+    float: left;
+    width: 31%;
+    text-align: left;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    /*border:1px solid red;*/
+}
+.s_image{
+    padding-top: 25px;
+    width: 15%;
+    float: left;  
+}
+.s_image img{
+    width: 100%;
+}
+.s_text{
+    float: right;
+    width: 75%;
+}
+.s_text h2{}
+.red{
+    font-size:22px;
+    font-weight: 400;
+}
+.s_text p{
+    color:#898989;
+}
+/* features end */
+/*keep start*/
+.keep{
+    padding-top:50px;
+    padding-bottom:100px;
+    background-color: black;
+}
+.k_content{}
+.yellow{
+    padding-top: 0;
+    color:#FCDB00;
+}
+.k_content p{}
+.p_b{
+    padding-bottom:30px;
+    color:#898989;
+}
+.form{}
+.k_form{  
+    margin:0 auto;
+    width:700px;
+}
+.k_form input{
+    width: 70%;
+    padding: 16px 0 16px 30px;
+    border-radius: 5px;
+    color: #898989;
+    border: none;
+    outline: 0;
+}
+.k_form button{
+    margin-left: 20px;
+    padding: 15px 40px;
+    font-family: PTSans-Bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    border-color: #fcdb00;
+    cursor: pointer;
+}
+.social{
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 50px;
+}
+.social ul{
+    overflow: hidden;
+}
+.social ul li{
+    float:left;
+    list-style: none;
+}
+.social ul li a{
+    margin-right: 30px;
+     display: inline-block;
+}
+.social ul li a img{
+    width:100%;
+}
+/*keep end*/
+
+/* footer start*/
+footer{
+    padding-top:50px;
+    padding-bottom:100px;
+    background-color: black;
+}
+.wrapper{
+    overflow: hidden;
+}
+.f_column{
+    width:20%;
+    float: left;
+    /*border:1px solid green;*/
+}
+.f_column ul{}
+.f_column ul li{
+    list-style: none;
+}
+.f_column ul li a{
+    color: #ffff;
+    display: inline-block;
+    text-decoration: none;
+}
+/* footer end */
